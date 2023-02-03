@@ -1,0 +1,28 @@
+@import './base.css';
+
+body, #app {
+  min-height: 100vh;
+}
+
+.scene {
+  height: 100vh;
+}
+
+.relative {
+  position: relative;
+}
+
+.label-form {
+  @apply block; 
+  @apply mb-2;
+  @apply text-sm font-medium text-slate-700;
+}
+
+.input-form {
+  @apply block;
+  @apply px-3 py-2;
+  @apply border border-slate-300 rounded-md;
+  @apply w-full shadow-sm;
+  @apply text-sm;
+  @apply focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500;
+}
